@@ -1,0 +1,145 @@
+﻿body {
+    font-family: arial, sans-serif;
+    display: grid;
+    height: 100%;
+    margin: 0 0 0 0;
+    grid-template-columns: minmax(100px, 10vw) 80vw minmax(100px, 10vw);
+    grid-template-rows: minmax(40px, 7vh) 88vh minmax(40px, 4vh);
+}
+
+header {
+    font-size: 13px;
+    grid-column: 1 / 4;
+    color: rgba(0,0,0,0.87);
+    padding-top: 20px;
+}
+
+footer {
+    font-size: 13px;
+    grid-column: 1 / 4;
+    color: rgba(0,0,0,0.87);
+    padding-top: 12px;
+    background: #f2f2f2;
+    position: relative;
+    top: 5px;
+    /*border: 1px solid black;*/
+    
+}
+
+.center-content {
+    text-align: -webkit-center;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.logo {
+    padding-top: 150px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mic {
+    position: relative;
+    width: 20px;
+    top: -30px;
+    left: 220px;
+}
+
+
+.top-right {
+    float: right;
+    position: relative;
+    top: -10px;
+    right: 10px;
+}
+
+.icons {
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+#headshot {
+    height: 30px;
+    border-radius: 50%;
+    top: 10px;
+}
+
+.top-left {
+    float: left;
+    padding-top: 10px;
+}
+
+.bottom-left {
+    float: left;
+    padding-left: 15px;
+
+}
+
+.bottom-right {
+    float: right;
+    padding-right: 15px;
+}
+
+.input-box {
+    -webkit-box-sizing: border-box;
+    background: #fff;
+    height: 44px;
+    max-width: 484px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+input {
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    width: 95%;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+    margin: 20px 4px;
+    padding: 0px 16px;
+}
+
+button:focus {
+    outline: none;
+    border: 1px solid #4d90fe;
+}
+button:hover {
+    cursor: pointer;
+}
+
+
+.tab:hover, .icons:hover, .btab:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+p.tab {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+p.btab {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 10px;
+}
