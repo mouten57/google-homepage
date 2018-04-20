@@ -123,11 +123,12 @@ button:focus {
     border: 1px solid #4d90fe;
 }
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
+  outline: LightGrey solid 1px;
+  color: black;
 }
 
-
-.tab:hover, .icons:hover, .btab:hover{
+.tab:hover, .mic:hover, .icons:hover, .btab:hover{
     cursor: pointer;
     text-decoration: underline;
 }
