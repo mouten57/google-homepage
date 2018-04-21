@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family: arial, sans-serif;
     display: grid;
     height: 100%;
@@ -143,4 +143,15 @@ p.btab {
     display: inline;
     padding-left: 15px;
     padding-right: 10px;
+}
+
+a {
+  color:black;
+  
+}
+
+
+a:visited, a:link {
+  color:black;
+  text-decoration:none;
 }
