@@ -5,3 +5,6 @@ From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-d
 
 4/20/18 
 -added folders/adjusted files
+
+4/21/18
+-added links and merged github and local files
